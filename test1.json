@@ -1,0 +1,230 @@
+[
+    {
+        "input": "done",
+        "output": "[{\"Accept\":\"previous\"}]"
+    },
+    {
+        "input": "10 hours 20000",
+        "output": "[{\"Offer\":{\"Salary\":\"20,000 NIS\"}},{\"Offer\":{\"Working Hours\":\"10 hours\"}}]"
+    },
+    {
+        "input": "20% 10 hours",
+        "output": "[{\"Offer\":{\"Pension Fund\":\"20%\"}},{\"Offer\":{\"Working Hours\":\"10 hours\"}}]"
+    },
+    {
+        "input": "i want car",
+        "output": "[{\"Offer\":{\"Leased Car\":\"With leased car\"}}]"
+    },
+    {
+        "input": "how does 20000 nis long term sound to you?",
+        "output": "[{\"Offer\":{\"Salary\":\"20,000 NIS\"}}]"
+    },
+    {
+        "input": "i want a car and max 7 hour a day",
+        "output": "[{\"Offer\":{\"Leased Car\":\"With leased car\"}},{\"Offer\":{\"Working Hours\":\"10 hours\"}}]"
+    },
+    {
+        "input": "i accept the programmer but with a sallary of 12000 nis with 20% pension and 9 hours work per day. how it it sound?",
+        "output": "[{\"Offer\":{\"Pension Fund\":\"20%\"}},{\"Offer\":{\"Salary\":\"12,000 NIS\"}},{\"Offer\":{\"Job Description\":\"Programmer\"}},{\"Offer\":{\"Working Hours\":\"9 hours\"}}]"
+    },
+    {
+        "input": "okay but 9 hours",
+        "output": "[{\"Offer\":{\"Working Hours\":\"9 hours\"}}]"
+    },
+    {
+        "input": "i want car",
+        "output": "[{\"Offer\":{\"Leased Car\":\"With leased car\"}}]"
+    },
+    {
+        "input": "so ill work for 8 hours and 20000 nis no car",
+        "output": "[{\"Offer\":{\"Working Hours\":\"8 hours\"}},{\"Offer\":{\"Salary\":\"20,000 NIS\"}},{\"Offer\":{\"Leased Car\":\"Without leased car\"}}]"
+    },
+    {
+        "input": "what about 20000",
+        "output": "[{\"Offer\":{\"Salary\":\"20,000 NIS\"}}]"
+    },
+    {
+        "input": "12000",
+        "output": "[{\"Offer\":{\"Salary\":\"12,000 NIS\"}}]"
+    },
+    {
+        "input": "no 20000 nis",
+        "output": "[{\"Offer\":{\"Salary\":\"20,000 NIS\"}}]"
+    },
+    {
+        "input": "must car",
+        "output": "[{\"Offer\":{\"Leased Car\":\"With leased car\"}}]"
+    },
+    {
+        "input": "hi how are you, i want to be a project manager with 20000 nis with leased car, 20% , with fast promotion",
+        "output": "[{\"Greet\":true},{\"Offer\":{\"Salary\":\"20,000 NIS\"}},{\"Offer\":{\"Leased Car\":\"With leased car\"}},{\"Offer\":{\"Job Description\":\"Project Manager\"}},{\"Offer\":{\"Pension Fund\":\"20%\"}},{\"Offer\":{\"Promotion Possibilities\":\"Fast promotion track\"}}]"
+    },
+    {
+        "input": "let us make it an 8 houer day fo 7000",
+        "output": "[{\"Offer\":{\"Salary\":\"7,000 NIS\"}}]"
+    },
+    {
+        "input": "okay programer with car and 20% pension fund. i will work 8 hours at one day",
+        "output": "[{\"Offer\":{\"Leased Car\":\"With leased car\"}},{\"Offer\":{\"Pension Fund\":\"20%\"}},{\"Offer\":{\"Working Hours\":\"8 hours\"}}]"
+    },
+    {
+        "input": "8 hours 20000",
+        "output": "[{\"Offer\":{\"Salary\":\"20,000 NIS\"}},{\"Offer\":{\"Working Hours\":\"8 hours\"}}]"
+    },
+    {
+        "input": "8 hours",
+        "output": "[{\"Offer\":{\"Working Hours\":\"8 hours\"}}]"
+    },
+    {
+        "input": "no way",
+        "output": "[{\"Reject\":\"previous\"}]"
+    },
+    {
+        "input": "20000",
+        "output": "[{\"Offer\":{\"Salary\":\"20,000 NIS\"}}]"
+    },
+    {
+        "input": "20000",
+        "output": "[{\"Offer\":{\"Salary\":\"20,000 NIS\"}}]"
+    },
+    {
+        "input": "car 8 hours",
+        "output": "[{\"Offer\":{\"Working Hours\":\"8 hours\"}}]"
+    },
+    {
+        "input": "so give my work 8 hours",
+        "output": "[{\"Offer\":{\"Working Hours\":\"8 hours\"}}]"
+    },
+    {
+        "input": "car",
+        "output": "[{\"Offer\":{\"Leased Car\":\"With leased car\"}}]"
+    },
+    {
+        "input": "no car 9 hours",
+        "output": "[{\"Offer\":{\"Working Hours\":\"9 hours\"}},{\"Offer\":{\"Leased Car\":\"Without leased car\"}}]"
+    },
+    {
+        "input": "20000",
+        "output": "[{\"Offer\":{\"Salary\":\"20,000 NIS\"}}]"
+    },
+    {
+        "input": "okay",
+        "output": "[{\"Accept\":\"previous\"}]"
+    },
+    {
+        "input": "20000",
+        "output": "[{\"Offer\":{\"Salary\":\"20,000 NIS\"}}]"
+    },
+    {
+        "input": "give me the car and i work better",
+        "output": "[{\"Accept\":\"previous\"},{\"Accept\":\"Leased Car\"},{\"Reject\":\"Salary\"}]"
+    },
+    {
+        "input": "i want to work 8 hour",
+        "output": "[{\"Offer\":{\"Working Hours\":\"8 hours\"}}]"
+    },
+    {
+        "input": "salary 20000",
+        "output": "[{\"Offer\":{\"Salary\":\"20,000 NIS\"}}]"
+    },
+    {
+        "input": "12000",
+        "output": "[{\"Offer\":{\"Salary\":\"12,000 NIS\"}}]"
+    },
+    {
+        "input": "programmer",
+        "output": "[{\"Offer\":{\"Job Description\":\"Programmer\"}}]"
+    },
+    {
+        "input": "20000 nis 10 hours get car 20% pension team manager",
+        "output": "[{\"Offer\":{\"Pension Fund\":\"20%\"}},{\"Offer\":{\"Salary\":\"20,000 NIS\"}},{\"Offer\":{\"Working Hours\":\"10 hours\"}},{\"Offer\":{\"Job Description\":\"Team Manager\"}}]"
+    },
+    {
+        "input": "no way",
+        "output": "[{\"Reject\":\"previous\"}]"
+    },
+    {
+        "input": "8 hours project manager car 200008 hours project manager car 200008 hours project manager car 20000",
+        "output": "[{\"Offer\":{\"Salary\":\"20,000 NIS\"}},{\"Offer\":{\"Working Hours\":\"8 hours\"}},{\"Offer\":{\"Leased Car\":\"With leased car\"}},{\"Offer\":{\"Job Description\":\"Project Manager\"}}]"
+    },
+    {
+        "input": "8 hours",
+        "output": "[{\"Offer\":{\"Working Hours\":\"8 hours\"}}]"
+    },
+    {
+        "input": "car",
+        "output": "[{\"Offer\":{\"Leased Car\":\"With leased car\"}}]"
+    },
+    {
+        "input": "20000",
+        "output": "[{\"Offer\":{\"Salary\":\"20,000 NIS\"}}]"
+    },
+    {
+        "input": "8 hours 20000",
+        "output": "[{\"Offer\":{\"Salary\":\"20,000 NIS\"}},{\"Offer\":{\"Working Hours\":\"8 hours\"}}]"
+    },
+    {
+        "input": "8 working hours",
+        "output": "[{\"Offer\":{\"Working Hours\":\"8 hours\"}}]"
+    },
+    {
+        "input": "20000",
+        "output": "[{\"Offer\":{\"Salary\":\"20,000 NIS\"}}]"
+    },
+    {
+        "input": "8 hours",
+        "output": "[{\"Offer\":{\"Working Hours\":\"8 hours\"}}]"
+    },
+    {
+        "input": "8 hours project manager car 20000",
+        "output": "[{\"Offer\":{\"Salary\":\"20,000 NIS\"}},{\"Offer\":{\"Working Hours\":\"8 hours\"}},{\"Offer\":{\"Leased Car\":\"With leased car\"}},{\"Offer\":{\"Job Description\":\"Project Manager\"}}]"
+    },
+    {
+        "input": "20000",
+        "output": "[{\"Offer\":{\"Salary\":\"20,000 NIS\"}}]"
+    },
+    {
+        "input": "programmer 12000 nis get car",
+        "output": "[{\"Offer\":{\"Salary\":\"12,000 NIS\"}},{\"Offer\":{\"Leased Car\":\"With leased car\"}},{\"Offer\":{\"Job Description\":\"Programmer\"}}]"
+    },
+    {
+        "input": "i want sallary 7000",
+        "output": "[{\"Offer\":{\"Salary\":\"7,000 NIS\"}}]"
+    },
+    {
+        "input": "8 hours only",
+        "output": "[{\"Offer\":{\"Working Hours\":\"8 hours\"}}]"
+    },
+    {
+        "input": "great",
+        "output": "[{\"Accept\":\"previous\"}]"
+    },
+    {
+        "input": "i agree on 7000",
+        "output": "[{\"Offer\":{\"Salary\":\"7,000 NIS\"}}]"
+    },
+    {
+        "input": "20000",
+        "output": "[{\"Offer\":{\"Salary\":\"20,000 NIS\"}}]"
+    },
+    {
+        "input": "20000",
+        "output": "[{\"Offer\":{\"Salary\":\"20,000 NIS\"}}]"
+    },
+    {
+        "input": "8 hours project manager car 20000",
+        "output": "[{\"Offer\":{\"Salary\":\"20,000 NIS\"}},{\"Offer\":{\"Working Hours\":\"8 hours\"}},{\"Offer\":{\"Leased Car\":\"With leased car\"}},{\"Offer\":{\"Job Description\":\"Project Manager\"}}]"
+    },
+    {
+        "input": "leased car",
+        "output": "[{\"Offer\":{\"Leased Car\":\"With leased car\"}}]"
+    },
+    {
+        "input": "8 hours",
+        "output": "[{\"Offer\":{\"Working Hours\":\"8 hours\"}}]"
+    },
+    {
+        "input": "project manager",
+        "output": "[{\"Offer\":{\"Job Description\":\"Project Manager\"}}]"
+    }
+]

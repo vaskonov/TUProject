@@ -1,0 +1,405 @@
+{
+    "{\"Accept\":\"previous\"}": [
+        "done",
+        "i believe we should sign now",
+        "you understand right",
+        "okay",
+        "yes",
+        "great",
+        "i agree",
+        "agreed",
+        "deal!",
+        "good, i think we agree on everything.",
+        "i accept your offer",
+        "fine",
+        "we have a deal.",
+        "okay then",
+        "okay agree",
+        "excellent.",
+        "i accept",
+        "that is fine",
+        "agree .",
+        "agree",
+        "fine, i agree"
+    ],
+    "{\"Offer\":{\"Leased Car\":\"With leased car\"}}": [
+        "i want car",
+        "must car",
+        "car",
+        "leased car",
+        "i want a car",
+        "with car",
+        "i need car",
+        "so give me leased car",
+        "with leased car",
+        "i need a car",
+        "i really need car",
+        "i want a leased car",
+        "leased car necceary",
+        "i must car",
+        "than give me a car",
+        "what about car?"
+    ],
+    "{\"Offer\":{\"Salary\":\"12,000 NIS\"}}": [
+        "12000",
+        "so i want 12000 salary",
+        "i will offer 12000 nis",
+        "12000 ?",
+        "so let us make it 12000 nis",
+        "12000 nis",
+        "no, 12000",
+        "i want 12000 salary",
+        "i would be willing to offer 12000 .",
+        "sallary 12000",
+        "we already agreed on 12000",
+        "your salary 12000",
+        "12000 now",
+        "salary - i want 12000",
+        "i do not think so, it is insulting. i want a salary of 12000",
+        "i want to give you only 12000",
+        "if you give me 12000 i will work properly trust me",
+        "12000 and i accept",
+        "i want 12000",
+        "then salary would be 12000 nis",
+        "the best i can do is 12000",
+        "upgrade my salary to 12000 and i will sign",
+        "what about 12000 nis?",
+        "i want only 12000",
+        "okay but the salary that i want is 12000 nis",
+        "with 12000 salary?",
+        "do not work for less than 12000"
+    ],
+    "{\"Offer\":{\"Salary\":\"20,000 NIS\"}}": [
+        "how does 20000 nis long term sound to you?",
+        "what about 20000",
+        "no 20000 nis",
+        "20000",
+        "salary 20000",
+        "wht do you say about 20000 nis per month ?",
+        "i want 20000",
+        "i will sign now if you give me 20000 salary",
+        "sorry i can work for 20000 only",
+        "20000 nis",
+        "no, i am a very good worker and i want 20000 nis",
+        "i want 20000 nis per month",
+        "only 20000",
+        "no no no 20000",
+        "i want 20000 nis",
+        "i want salary 20000",
+        "i would like to get a salary on no less than 20000 nis",
+        "i want 20000 nis salary",
+        "i offer you a 20000 nis salary"
+    ],
+    "{\"Offer\":{\"Promotion Possibilities\":\"Slow promotion track\"}}": [
+        "slow track",
+        "slow promotion and we can sign",
+        "i will offer slow track promotion"
+    ],
+    "{\"Offer\":{\"Working Hours\":\"9 hours\"}}": [
+        "okay but 9 hours",
+        "9 hours day sounds cool to me",
+        "what about 9 hours?",
+        "okay but i want to work 9 hours a day",
+        "9 hours",
+        "i will offer you 9 hours",
+        "so 9 hours and let us be my employer",
+        "no only 9 hours",
+        "9 hours!",
+        "i agree 9 hours",
+        "i said only 9 hours okay?",
+        "no only 9 hours okay?",
+        "would 9 hours be okay?",
+        "i want to work 9 hours",
+        "i want 9 hours",
+        "9 hours is fine by me",
+        "i eant to wark 9 hours not 10",
+        "i can work 9 hours",
+        "only 9 hours",
+        "maby 9 hour?",
+        "i will need you for 9",
+        "9 hours sounds fair to both sides",
+        "i would like you to work 9 hour days.",
+        "will be okay if i will work 9 hours?",
+        "so i want please to work only 9 hours?",
+        "i want 9 hour",
+        "9 hours?",
+        "9 working hours.",
+        "working hours 9",
+        "please 9 hours"
+    ],
+    "{\"Offer\":{\"Pension Fund\":\"10%\"}}": [
+        "10%?",
+        "10%",
+        "and we will throw in 10% pension fund",
+        "i  offer 10% pension",
+        "i will give you 10%.",
+        "our policy allows for 0 -10%. i am offering the 10%",
+        "we start with 10% and the longer you work, the higher the pension goes up",
+        "i can offer 10% pension",
+        "but just 10% pension,",
+        "let us make it 10%"
+    ],
+    "{\"Offer\":{\"Salary\":\"7,000 NIS\"}}": [
+        "i want sallary 7000",
+        "i agree on 7000",
+        "will you accept 7000 ?",
+        "your salary will be 7000",
+        "we talked on 7000",
+        "you will get 7000",
+        "how about 7000 nis?",
+        "7000 nis"
+    ],
+    "{\"Offer\":{\"Working Hours\":\"8 hours\"}}": [
+        "8 hours",
+        "car 8 hours",
+        "so give my work 8 hours",
+        "i want to work 8 hour",
+        "8 working hours",
+        "8 hours only",
+        "how about 8 hours ?",
+        "i want 8 hours a day",
+        "i can work 8 hours a day",
+        "i can work 8 hours",
+        "so 8 hours per day",
+        "only 8 working hours",
+        "i am going to stay in for many years so i think i deserve to work 8 hours a day",
+        "i will give you 8 working hours",
+        "i have family, 8 hours",
+        "you can work for only 8 hours a day",
+        "i want to work 8 hours",
+        "only 8 hours",
+        "i want to work just a 8 hours",
+        "8 hours and sign",
+        "and 8 hours",
+        "8 hours okay?",
+        "i realy need to work 8 hours"
+    ],
+    "{\"Accept\":\"Salary\"}": [
+        "i accepted salary"
+    ],
+    "{\"Reject\":\"previous\"}": [
+        "no way",
+        "no",
+        "i do not accept",
+        "i do not accept your offer",
+        "not good",
+        "i disagree.",
+        "i do not accept your aooer",
+        "i am not accept the agreement.",
+        "i can not agree to that",
+        "i can not",
+        "your offer is unacceptable",
+        "make me a better offer",
+        "i can not give you this",
+        "i am not accept the agreement",
+        "not good for me. goodbye",
+        "i do not agree",
+        "i got a better offer",
+        "i did not accept",
+        "i can not offer that at this time.",
+        "last chance man. you are about to lose me",
+        "i can find a better job than"
+    ],
+    "{\"Offer\":{\"Leased Car\":\"Without leased car\"}}": [
+        "without leased car",
+        "so without a car",
+        "no leased car. use your own car.",
+        "no liased car",
+        "no car",
+        "withour liased car",
+        "no leased car",
+        "i said without leased car",
+        "no leased car.",
+        "without leasd car",
+        "no leased car is possible",
+        "no i want a car",
+        "the position is without a leased car"
+    ],
+    "{\"Offer\":{\"Working Hours\":\"10 hours\"}}": [
+        "can you give 10 ?",
+        "10 hours?",
+        "10 hours",
+        "you will have to work for 10 hours",
+        "your offer 10 hours , is unacceptable",
+        "can you give 10 hours",
+        "no 10 hours",
+        "instead, will you accept 10 hours?",
+        "can you give 10 hores",
+        "i need you to work 10 hours because there is a lot of job to do"
+    ],
+    "{\"Offer\":{\"Job Description\":\"Programmer\"}}": [
+        "programmer",
+        "programmer?",
+        "i offer programmer",
+        "okay programmer",
+        "programmer is okay",
+        "would you prefer working as a programmer?",
+        "you need to be a programmer job title",
+        "i can only offer programmer",
+        "i need a programmer",
+        "i want you to be an programmer",
+        "we have already agreed on programmer",
+        "why not an programmer?",
+        "i am prepared to offer you a position as a programmer at this time",
+        "as a start you will start as a programmer",
+        "i think you should be a programmer.",
+        "actually, i had in mind offering you a programmers job"
+    ],
+    "{\"Offer\":{\"Job Description\":\"Team Manager\"}}": [
+        "the position is one of team manager",
+        "you can be team manager",
+        "team manager",
+        "if i do not get  team manager i wont work",
+        "the maximum is team manager",
+        "i want to wark as team manager",
+        "team manager?",
+        "i want to be  team manager",
+        "then i would to be team manager",
+        "i want to be team manager",
+        "just if i be a team manager",
+        "no or a team leader or a projects manager",
+        "as i said i am a hard worker. i am willing to start as a team manager with 16000 shekels. the pension is like in my current work",
+        "i would like to be a team manager because it is my proffession"
+    ],
+    "{\"Offer\":{\"Job Description\":\"Project Manager\"}}": [
+        "project manager",
+        "i would like to be a project manager",
+        "all is good but i want project manager",
+        "i want to be a project  manager",
+        "give me the project manager job",
+        "i am a project manager",
+        "i want project manager",
+        "project manager would be fine",
+        "project manager only"
+    ],
+    "{\"Insist\":\"previous\"}": [
+        "thats the last offer",
+        "yes you can",
+        "i am sorry but no",
+        "why?",
+        "why not?"
+    ],
+    "{\"Reject\":\"Promotion Possibilities\"}": [
+        "i am unable to accept fast promotion track"
+    ],
+    "{\"Greet\":true}": [
+        "hi",
+        "hello.",
+        "hi how are you?",
+        "hi how are you",
+        "hi how are you ?",
+        "hi, why do you think you deserve this salary?",
+        "hi, nice to meet",
+        "hi what is your skills"
+    ],
+    "{\"Offer\":{\"Pension Fund\":\"20%\"}}": [
+        "20% pension",
+        "20% pension is good",
+        "20%",
+        "i agree 20 pension",
+        "i am willing to give you 20% pension.",
+        "20% pension fund",
+        "20% and less than one percent",
+        "okay 20%",
+        "pension 20%",
+        "i am not giving up on it, i want 20%",
+        "give me 20% pension",
+        "an 20%",
+        "i want 20% pension"
+    ],
+    "{\"Append\":\"previous\"}": [
+    ],
+    "{\"Offer\":{\"Job Description\":\"QA\"}}": [
+        "qa",
+        "i offer a qa"
+    ],
+    "{\"Quit\":true}": [
+        "thank you",
+        "i quit",
+        "bye"
+    ],
+    "{\"Offer\":{\"Promotion Possibilities\":\"Fast promotion track\"}}": [
+        "fast promotion",
+        "fast track",
+        "fast promotion track?",
+        "with fast promotion",
+        "fast promotion track",
+        "fast promotion track is okay"
+    ],
+    "{\"Reject\":\"Pension Fund\"}": [
+        "we can not give pension funds",
+        "pension funds can not be given"
+    ],
+    "{\"Query\":\"bid\"}": [
+        "what is your offer?",
+        "so what are you offers?",
+        "make me an offer ?"
+    ],
+    "{\"Accept\":\"Leased Car\"}": [
+        "i need the car",
+        "okay, you can have a leased car.",
+        "what about the car"
+    ],
+    "{\"Query\":\"compromise\"}": [
+        "you are not compromising on anything",
+        "we are wasting time and losing points",
+        "i can wait, but you are losing too"
+    ],
+    "{\"Query\":\"issues\"}": [
+        "so let us talk about it",
+        "what offer do you not accept?",
+        "we alreadty talk about it"
+    ],
+    "{\"Accept\":{\"Promotion Possibilities\":\"Fast promotion track\"}}": [
+        "yes, fast promotion track"
+    ],
+    "{\"Reject\":\"Salary\"}": [
+        "i can be maneger and with more salary",
+        "i got the same offer in another place but with a higher salary",
+        "instead the pension more salary"
+    ],
+    "{\"Query\":\"accept\"}": [
+        "what say you?",
+        "sign",
+        "sign agreement",
+        "do we have an agreement"
+    ],
+    "{\"Offer\":{\"Leased Car\":\"No agreement\"}}": [
+        "let us not include the car in the agreement",
+        "there is no agreement on leased car",
+        "let us desides about no agreement about the car",
+        "there is no agreement on the leased car",
+        "no agreement leased car",
+        "there will be no agreement for car"
+    ],
+    "{\"Reject\":\"Working Hours\"}": [
+        "i do not accept your offer about 10 hours,"
+    ],
+    "{\"Query\":\"Job Description\"}": [
+        "wich job do you want?",
+        "what job you want?",
+        "whice job do you want?"
+    ],
+    "{\"Query\":\"Leased Car\"}": [
+        "car?",
+        "let us settle leased car"
+    ],
+    "{\"Accept\":{\"Working Hours\":\"8 hours\"}}": [
+        "8 hours is accepted."
+    ],
+    "{\"Reject\":\"Job Description\"}": [
+        "i am not satisfied"
+    ],
+    "{\"Accept\":{\"Pension Fund\":\"20%\"}}": [
+        "you can have the 20% pension fund."
+    ],
+    "{\"Offer\":{\"Pension Fund\":\"0%\"}}": [
+        "0%"
+    ],
+    "{\"Accept\":\"Job Description\"}": [
+        "yes, i have team manager available."
+    ],
+    "{\"Reject\":{\"Working Hours\":\"8 hours\"}}": [
+        "i will not accept 8 hours a day"
+    ]
+}
