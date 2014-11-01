@@ -1,0 +1,2212 @@
+[
+    {
+        "input": "deal",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "working 8 hours would be fine for the team manager position",
+        "output": [
+            {
+                "Offer": {
+                    "Job Description": "Team Manager"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "8 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "okay i will sign",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "if i accept 10% then i want project manager",
+        "output": [
+            {
+                "Offer": {
+                    "Pension Fund": "10%"
+                }
+            },
+            {
+                "Offer": {
+                    "Job Description": "Project Manager"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i will not take any less than 90000 a year.",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "90000 usd, team leader, with a car, 20% pension, fast promotion and 9 hour days",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "20%"
+                }
+            },
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "can i get a leased car with no pension",
+        "output": [
+            {
+                "Offer": {
+                    "Pension Fund": "0%"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "agreed",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "i am willing to compromise on a 20% pension fund",
+        "output": [
+            {
+                "Offer": {
+                    "Pension Fund": "20%"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i believe we should sign now",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "as a project manager.",
+        "output": [
+            {
+                "Offer": {
+                    "Job Description": "Project Manager"
+                }
+            }
+        ]
+    },
+    {
+        "input": "deal",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "i need a car.",
+        "output": [
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i would like 90000 usd",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "sounds reasonable!",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "i will work 10 hours for 90000 as a programmer with leased car, 20% pension, fast promotion track.",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "10 hours"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            },
+            {
+                "Offer": {
+                    "Job Description": "Programmer"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "20%"
+                }
+            },
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            }
+        ]
+    },
+    {
+        "input": "okay",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "i want team manager",
+        "output": [
+            {
+                "Offer": {
+                    "Job Description": "Team Manager"
+                }
+            }
+        ]
+    },
+    {
+        "input": "you can have the 20% pension fund.",
+        "output": [
+            {
+                "Accept": {
+                    "Pension Fund": "20%"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i can not accept 10%, i want 20%",
+        "output": [
+            {
+                "Reject": {
+                    "Pension Fund": "10%"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "20%"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i can not agree with 60000 and 10 hours",
+        "output": [
+            {
+                "Reject": {
+                    "Working Hours": "10 hours"
+                }
+            },
+            {
+                "Reject": {
+                    "Salary": "60,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i accept the 10% pension fund.",
+        "output": [
+            {
+                "Accept": {
+                    "Pension Fund": "10%"
+                }
+            }
+        ]
+    },
+    {
+        "input": "can i get a higher salary?",
+        "output": [
+            {
+                "Reject": "Salary"
+            }
+        ]
+    },
+    {
+        "input": "i want a 90000 usd salary, be a team manager, and have a car",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Job Description": "Team Manager"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "unacceptable 8 hours.",
+        "output": [
+            {
+                "Reject": {
+                    "Working Hours": "8 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "make it 8 hours",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "8 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i accept",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "120000",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "120,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "90000 will have to be the lowest i can go",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "programmer, 20% pension",
+        "output": [
+            {
+                "Offer": {
+                    "Job Description": "Programmer"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "20%"
+                }
+            }
+        ]
+    },
+    {
+        "input": "10 hours, 120000 usd, slow promotion, leased car",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "10 hours"
+                }
+            },
+            {
+                "Offer": {
+                    "Salary": "120,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Slow promotion track"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "yes, i would like these terms",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "i need the leased car",
+        "output": [
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "20% pension fund then",
+        "output": [
+            {
+                "Offer": {
+                    "Pension Fund": "20%"
+                }
+            }
+        ]
+    },
+    {
+        "input": "fast promotion track.",
+        "output": [
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            }
+        ]
+    },
+    {
+        "input": "programmer",
+        "output": [
+            {
+                "Offer": {
+                    "Job Description": "Programmer"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i am unable to accept fast promotion track",
+        "output": [
+            {
+                "Reject": {"Promotion Possibilities": "Fast promotion track"}
+            }
+        ]
+    },
+    {
+        "input": "9 hours.",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i can only offer programmer",
+        "output": [
+            {
+                "Offer": {
+                    "Job Description": "Programmer"
+                }
+            }
+        ]
+    },
+    {
+        "input": "if i am working 8 hours, i can accept 90000",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "8 hours"
+                }
+            },
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "9 hours final",
+        "output": [
+            {
+                "Insist": "previous"
+            },
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "60000 programmer",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "60,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Job Description": "Programmer"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i need a fast track promotion",
+        "output": [
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            }
+        ]
+    },
+    {
+        "input": "okay let us do 90000 for programmer no lesed car, 10% pension fast track promotion and 10 hour days",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "Without leased car"
+                }
+            },
+            {
+                "Offer": {
+                    "Job Description": "Programmer"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "10%"
+                }
+            },
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "10 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i want a salary of  usd 120000",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "120,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i need 8 hours",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "8 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "90000",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "could you do 90000 for that many hours",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "instead, will you accept 10 hours?",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "10 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i will accept 60000, but i want 8 hours per day, and i'd like pension at 20%,  i would also like a company car.",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "60,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "8 hours"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "20%"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "make an offer",
+        "output": [
+            {
+                "Query": "bid"
+            }
+        ]
+    },
+    {
+        "input": "no, i do not accept 60000 for 10 hours.",
+        "output": [
+             {
+                "Reject": {
+                    "Salary": "60,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i do not agree",
+        "output": [
+            {
+                "Reject": "previous"
+            }
+        ]
+    },
+    {
+        "input": "i will take 90000 usd with no car and slow track and will work 10 hour days.",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "Without leased car"
+                }
+            },
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Slow promotion track"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "10 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "90000 salary, all others acceptable.",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            },
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "10 hours",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "10 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "90000",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "9 hours, fast promotion track.",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            },
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            }
+        ]
+    },
+    {
+        "input": "can i work 9 hours?",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "make another offer",
+        "output": [
+            {
+                "Query": "bid"
+            }
+        ]
+    },
+    {
+        "input": "programmer if i can work 9 hours",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            },
+            {
+                "Offer": {
+                    "Job Description": "Programmer"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i agree to fast promotion track",
+        "output": [
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i would need 9 hours",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "great we agree",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "then i require a car and 9 hour days",
+        "output": [
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i demand 120000 and 8 hours a day",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "120,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "8 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "slow promotion track, 9 hours.",
+        "output": [
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Slow promotion track"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "with a leased car.",
+        "output": [
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "90000 salary, programmer okay, without car okay, 20%, fast promotion, 8 hours.",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Job Description": "Programmer"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "Without leased car"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "20%"
+                }
+            },
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "8 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "slow promotion track, 8 hours then.",
+        "output": [
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Slow promotion track"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "8 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "then make me a team manager",
+        "output": [
+            {
+                "Offer": {
+                    "Job Description": "Team Manager"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i will not accept that",
+        "output": [
+            {
+                "Reject": "previous"
+            }
+        ]
+    },
+    {
+        "input": "how about 8 hours, 10% pensions and no car, and with fast track promotion?",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "8 hours"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "10%"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "Without leased car"
+                }
+            },
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i accept",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "i would like 90000 usd",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "10 hours",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "10 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "team manager only needs 8 hours of work",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "8 hours"
+                }
+            },
+            {
+                "Offer": {
+                    "Job Description": "Team Manager"
+                }
+            }
+        ]
+    },
+    {
+        "input": "9 hour work day",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i will accept your offer.",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "9 hours, with a leased car, 90000",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            },
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "90000 salary, programmer, without leased car, 20% pension, 10 hours, fast track promotions.",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Job Description": "Programmer"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "Without leased car"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "20%"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "10 hours"
+                }
+            },
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            }
+        ]
+    },
+    {
+        "input": "how about a 60000 salary, as a programmer.",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "60,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Job Description": "Programmer"
+                }
+            }
+        ]
+    },
+    {
+        "input": "10 hours per day?",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "10 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "120000",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "120,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "agreed",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "i can not offer that at this time.",
+        "output": [
+            {
+                "Reject": "previous"
+            }
+        ]
+    },
+    {
+        "input": "20% pension, 60000 both work, leased car and 8 hours days.",
+        "output": [
+            {
+                "Offer": {
+                    "Pension Fund": "20%"
+                }
+            },
+            {
+                "Offer": {
+                    "Salary": "60,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "8 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "for a programmer position and only 10% pension and working 10 hours a day, i'd say that is acceptable",
+        "output": [
+            {
+                "Offer": {
+                    "Job Description": "Programmer"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "10%"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "10 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i request 120000 and no company car, then.",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "120,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "90000 usd, team manager, slow promotion track, no agreement on leased car and pension fund and 9 working hours",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Job Description": "Team Manager"
+                }
+            },
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Slow promotion track"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "No agreement"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "No agreement"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i need a leased car, fast track promotion if i am only getting 10%",
+        "output": [
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "10%"
+                }
+            },
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            }
+        ]
+    },
+    {
+        "input": "the position is one of team manager",
+        "output": [
+            {
+                "Offer": {
+                    "Job Description": "Team Manager"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i can accept 90000 , no car, 10% and fast track",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "Without leased car"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "10%"
+                }
+            },
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            }
+        ]
+    },
+    {
+        "input": "9 hours?",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i accept",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "8 hours",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "8 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "I need a leased car in this position",
+        "output": [
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "90000 usd",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "okay",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "60000 is unacceptable",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "60,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "10 hours, 90000 usd, fast promotion, leased car",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "10 hours"
+                }
+            },
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "okay",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "i accept",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "nice to meet you i want 90000 for a programmer, no car needed, a 10% pension fund with fast track promotion and 9 hour days",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Job Description": "Programmer"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "Without leased car"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "10%"
+                }
+            },
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "could i get a leased car?",
+        "output": [
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "hi, i can not go that low on salary,  will you come up to 90000 ?",
+        "output": [
+            {
+                "Greet": true
+            },
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i need 20% then, no car, fast track",
+        "output": [
+            {
+                "Offer": {
+                    "Pension Fund": "20%"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "Without leased car"
+                }
+            },
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i do not agree",
+        "output": [
+            {
+                "Reject": "previous"
+            }
+        ]
+    },
+    {
+        "input": "i will give you 10%.",
+        "output": [
+            {
+                "Offer": {
+                    "Pension Fund": "10%"
+                }
+            }
+        ]
+    },
+    {
+        "input": "may i receive a salary of 120000 ?",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "120,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i can do 90000",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i accept 20% pension",
+        "output": [
+            {
+                "Offer": {
+                    "Pension Fund": "20%"
+                }
+            }
+        ]
+    },
+    {
+        "input": "10 hours with car",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "10 hours"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "let me work 8 hours",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "8 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "with a 10% pension fund, a fast promotion track and a leased car",
+        "output": [
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "10%"
+                }
+            },
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i will give you a leased car",
+        "output": [
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "then i will only work for 8 hours",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "8 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "let us agree on 9 hours",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "please agree to leased car",
+        "output": [
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "okay i will sign",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "i need to work 8 hours",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "8 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "without leased car is fine with me.",
+        "output": [
+            {
+                "Offer": {
+                    "Leased Car": "Without leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "let us meet in the middle and say 90000",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i need the car",
+        "output": [
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "leased car seems to be a point with me.",
+        "output": [
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "hi, i would like take the qa job position, i would prefer a starting income of 60000 and a 10% pension fund, working 8 hours a day, i would be very dedicated to my job and willing to be evaluated on all aspects of my production.",
+        "output": [
+            {
+                "Greet": true
+            },
+            {
+                "Offer": {
+                    "Job Description": "QA"
+                }
+            },
+            {
+                "Offer": {
+                    "Salary": "60,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "10%"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "8 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i will accept 90000 a year as a team manager without a leased car, i will accept 10% pension fund, i will acept fast track promotion.",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "Without leased car"
+                }
+            },
+            {
+                "Offer": {
+                    "Job Description": "Team Manager"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "10%"
+                }
+            },
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i will agree to 9 hour days.",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "9 hours or a 20% pension please",
+        "output": [
+            {
+                "Offer": {
+                    "Pension Fund": "20%"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "allow me to be project manager",
+        "output": [
+            {
+                "Offer": {
+                    "Job Description": "Project Manager"
+                }
+            }
+        ]
+    },
+    {
+        "input": "okay 10 hours, 10% pension and fast promotion track",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "10 hours"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "10%"
+                }
+            },
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            }
+        ]
+    },
+    {
+        "input": "good, i think we agree on everything.",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "90000, 8 working hours, with a car",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "8 hours"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i will accept team manager 9 hours and 10%",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            },
+            {
+                "Offer": {
+                    "Job Description": "Team Manager"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "10%"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i will work as a programmer, but i want a company car.",
+        "output": [
+            {
+                "Offer": {
+                    "Job Description": "Programmer"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i must also be on the fast promotion track",
+        "output": [
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            }
+        ]
+    },
+    {
+        "input": "no",
+        "output": [
+            {
+                "Reject": "previous"
+            }
+        ]
+    },
+    {
+        "input": "let us meet in the middle and say 9 hours",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "hi, nice to meet you",
+        "output": [
+            {
+                "Greet": true
+            }
+        ]
+    },
+    {
+        "input": "okay, sounds good deal.",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "okay",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "would you provide a leased car",
+        "output": [
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "okay",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "9 hours is fine by me",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "10 hours, 10% pension.",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "10 hours"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "10%"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i will accept that offer",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "90000",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "okay",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "yes i will sign the agreement.",
+        "output": [
+            {
+                "Accept": "previous"
+            }
+        ]
+    },
+    {
+        "input": "team manager with a car",
+        "output": [
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            },
+            {
+                "Offer": {
+                    "Job Description": "Team Manager"
+                }
+            }
+        ]
+    },
+    {
+        "input": "90000",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i would like 90000",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i want a leased car",
+        "output": [
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "make me a new offer",
+        "output": [
+            {
+                "Query": "bid"
+            }
+        ]
+    },
+    {
+        "input": "are you sure i can not have 90000 ?",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "9 hours",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i can do 90000 and 10% pension with a leased car, 10 hours is good.",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "10%"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "10 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "the most i will do is 9 hours.",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "with those bonuses, i can not do 8 hours, i can however grant a 9 hour day",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            },
+            {
+                "Reject": {
+                    "Working Hours": "8 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i propose a salary of 120000",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "120,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "make pension 20%",
+        "output": [
+            {
+                "Offer": {
+                    "Pension Fund": "20%"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i agree to programmer, 20%, leased car, and fast track, surely you can let me work 8 hours since i have agreed to everything else!",
+        "output": [
+            {
+                "Offer": {
+                    "Job Description": "Programmer"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "20%"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            },
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            },
+            {
+                "Offer": {
+                    "Working Hours": "8 hours"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i want a 20% pension",
+        "output": [
+            {
+                "Offer": {
+                    "Pension Fund": "20%"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i need 90000 usd",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "then i would accept usd 60000, but would ask for a 20% pension.",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "60,000 USD"
+                }
+            },
+            {
+                "Offer": {
+                    "Pension Fund": "20%"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i will accept 90000 usd as starting salary.",
+        "output": [
+            {
+                "Offer": {
+                    "Salary": "90,000 USD"
+                }
+            }
+        ]
+    },
+    {
+        "input": "i prefer 20%",
+        "output": [
+            {
+                "Offer": {
+                    "Pension Fund": "20%"
+                }
+            }
+        ]
+    },
+    {
+        "input": "programmer, with car,",
+        "output": [
+            {
+                "Offer": {
+                    "Job Description": "Programmer"
+                }
+            },
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    },
+    {
+        "input": "can i be a team manager with my current salary?",
+        "output": [
+            {
+                "Offer": {
+                    "Job Description": "Team Manager"
+                }
+            }
+        ]
+    },
+    {
+        "input": "9 hours, fast promotion track.",
+        "output": [
+            {
+                "Offer": {
+                    "Working Hours": "9 hours"
+                }
+            },
+            {
+                "Offer": {
+                    "Promotion Possibilities": "Fast promotion track"
+                }
+            }
+        ]
+    },
+    {
+        "input": "with leased car",
+        "output": [
+            {
+                "Offer": {
+                    "Leased Car": "With leased car"
+                }
+            }
+        ]
+    }
+]
