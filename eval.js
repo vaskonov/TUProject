@@ -33,11 +33,20 @@ _.each(data, function(value, key, list){
 }, this)
 
 console.log("TAGS SINGLE")
-console.log(stats_single.retrieveStats())
-console.log(stats_single.retrieveLabels())
+var single = stats_single.retrieveStats()
+console.log("Precision "+single['Precision'])
+console.log("Recall "+single['Recall'])
+console.log("F1 "+single['F1'])
+// console.log(stats_single.retrieveStats())
+// console.log(stats_single.retrieveLabels())
 
 console.log("TAGS MAJORITY")
-console.log(stats_majority.retrieveStats())
-console.log(stats_majority.retrieveLabels())
+var majority = stats_majority.retrieveStats()
+console.log("Precision "+majority['Precision'])
+console.log("Recall "+majority['Recall'])
+console.log("F1 "+majority['F1'])
+
+// console.log(stats_majority.retrieveStats())
+// console.log(stats_majority.retrieveLabels())
 
 
