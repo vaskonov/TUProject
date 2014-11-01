@@ -25,14 +25,19 @@ _.each(data, function(value, key, list){
 	value['tags_majority'] = _.map(value['tags_majority'], function(json){ return _.isString(json)? json: JSON.stringify(json) });
 
 	stats_single.addCasesHash(value['output'], value['tags_single'])
+	stats_single.addCasesLabels(value['output'], value['tags_single'])
+	
 	stats_majority.addCasesHash(value['output'], value['tags_majority'])
+	stats_majority.addCasesLabels(value['output'], value['tags_majority'])
 
 }, this)
 
 console.log("TAGS SINGLE")
 console.log(stats_single.retrieveStats())
+console.log(stats_single.retrieveLabels())
 
 console.log("TAGS MAJORITY")
 console.log(stats_majority.retrieveStats())
+console.log(stats_majority.retrieveLabels())
 
 
