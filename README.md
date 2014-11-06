@@ -6,7 +6,7 @@ TextUnderstandingProject.java - Entailment absolute threshold version
 
 TextUnderstandingProject1.java - Entailment relative threshold
 
-TextUnderstandingProject1.java - Entailment average confidence threshold
+TextUnderstandingProject2.java - Entailment average confidence threshold
 
 eval1.js evaluates the performance of multi-label classifier based on results of classification.
 
