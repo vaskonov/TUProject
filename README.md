@@ -20,5 +20,7 @@ All needed modules are provided in node_modules folder for convience
 For manual installation, run the following.
 
 npm install underscore
+
 npm install fs
+
 npm install sprintf
